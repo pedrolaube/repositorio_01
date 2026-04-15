@@ -1,0 +1,40 @@
+.botao {
+  background-color: #c0c0c0;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botao:hover {
+  background-color: #000;
+}
+.botao {
+  background-color: #000;
+  color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.botao:hover {
+  background-color: #c0c0c0;
+  color: black;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  padding: 14px;
+}
+header img {
+  display: flexbox;
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  align-items: center;
+}
