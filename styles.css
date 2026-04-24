@@ -53,7 +53,7 @@ img {
 .pokemon {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("plano-de-fundo.png");
+    url("imagens/plano-de-fundo.png");
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -63,15 +63,15 @@ img {
 .torchic {
   position: absolute;
   top: 330px;
-  left: 200px;
+  left: 400px;
   transform: translate(-50%, -50%);
   width: 450px;
   height: 450px;
 }
 .trecko {
   position: absolute;
-  top: 200px;
-  left: 660px;
+  top: 250px;
+  left: 950px;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 300px;
@@ -79,7 +79,7 @@ img {
 .mudkip {
   position: absolute;
   top: 420px;
-  left: 1200px;
+  left: 1340px;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 300px;
@@ -92,26 +92,32 @@ img {
 .card {
   background-color: #0d0d0d;
   padding: 50px;
-  border-radius: 50px;
-  margin: 400px;
-  width: 1000px;
+  border-radius: 100px;
+  margin: 250px;
+  width: 1300px;
+  height: 600px;
 }
 
 .kobe-1 {
   position: absolute;
-  top: 600px;
-  left: 1600px;
+  top: 400px;
+  left: 1725px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
+}
+.kobe-1:hover {
+  border-color: #f29b30;
+  border-width: 2.5px;
+  border-style: solid;
 }
 .mj {
   position: absolute;
-  top: 600px;
-  left: 390px;
+  top: 400px;
+  left: 240px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
 }
 .mj:hover {
   border-color: #f29b30;
@@ -120,11 +126,11 @@ img {
 }
 .lebron-1 {
   position: absolute;
-  top: 850px;
-  left: 1550px;
+  top: 770px;
+  left: 1600px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .lebron-1:hover {
   border-color: #f29b30;
@@ -134,11 +140,11 @@ img {
 
 .lebron-2 {
   position: absolute;
-  top: 850px;
-  left: 425px;
+  top: 770px;
+  left: 350px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .lebron-2:hover {
   border-color: #f29b30;
@@ -147,11 +153,11 @@ img {
 }
 .rose-1 {
   position: absolute;
-  top: 1090px;
+  top: 1180px;
   left: 505px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .rose-1:hover {
   border-color: #f29b30;
@@ -160,11 +166,11 @@ img {
 }
 .rose-2 {
   position: absolute;
-  top: 1090px;
+  top: 1180px;
   left: 1500px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .rose-2:hover {
   border-color: #f29b30;
@@ -173,11 +179,11 @@ img {
 }
 .rose-3 {
   position: absolute;
-  top: 1090px;
+  top: 1180px;
   left: 850px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .rose-3:hover {
   border-color: #f29b30;
@@ -186,11 +192,11 @@ img {
 }
 .kobe-2 {
   position: absolute;
-  top: 1090px;
+  top: 1180px;
   left: 1200px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .kobe-2:hover {
   border-color: #f29b30;
@@ -199,11 +205,11 @@ img {
 }
 .rodman-1 {
   position: absolute;
-  top: 600px;
+  top: 350px;
   left: 1300px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .rodman-1:hover {
   border-color: #f29b30;
@@ -212,14 +218,69 @@ img {
 }
 .rodman-2 {
   position: absolute;
-  top: 600px;
+  top: 350px;
   left: 700px;
   transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
 }
 .rodman-2:hover {
   border-color: #f29b30;
   border-width: 2.5px;
   border-style: solid;
+}
+.verson-1 {
+  position: absolute;
+  top: 1100px;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  width: 235px;
+  height: 235px;
+}
+.verson-1:hover {
+  border-color: #f29b30;
+  border-width: 2.5px;
+  border-style: solid;
+}
+.iverson-2 {
+  position: absolute;
+  top: 1100px;
+  left: 1765px;
+  transform: translate(-50%, -50%);
+  width: 235px;
+  height: 235px;
+}
+.iverson-2:hover {
+  border-color: #f29b30;
+  border-width: 2.5px;
+  border-style: solid;
+}
+.poke-1 {
+  border-radius: 20px;
+}
+.poke-1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.corinthians {
+  background: repeating-linear-gradient(
+    75deg,
+    #000 0px,
+    #000 20px,
+    #fff 20px,
+    #fff 45px,
+    #000 45px,
+    #000 70px,
+    #fff 70px,
+    #fff 100px
+  );
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.corinthians h1 {
+  color: white;
+  font-size: 60px;
+  mix-blend-mode: difference;
 }
